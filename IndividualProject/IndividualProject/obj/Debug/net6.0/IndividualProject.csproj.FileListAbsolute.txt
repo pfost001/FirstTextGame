@@ -1,0 +1,15 @@
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\bin\Debug\net6.0\IndividualProject.exe
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\bin\Debug\net6.0\IndividualProject.deps.json
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\bin\Debug\net6.0\IndividualProject.runtimeconfig.json
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\bin\Debug\net6.0\IndividualProject.dll
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\bin\Debug\net6.0\IndividualProject.pdb
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.csproj.AssemblyReference.cache
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.AssemblyInfo.cs
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.dll
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\refint\IndividualProject.dll
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.pdb
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\IndividualProject.genruntimeconfig.cache
+C:\Users\Paul\source\repos\IndividualProject\IndividualProject\obj\Debug\net6.0\ref\IndividualProject.dll
