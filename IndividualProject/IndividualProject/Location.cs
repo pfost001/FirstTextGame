@@ -32,12 +32,13 @@ namespace IndividualProject
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("You are standing in square 0,0. There is stuff here.");
+                    Console.WriteLine("You are standing in the center of Hell. Tom's Gift Shop is nearby.");
                     Console.WriteLine("====== OPTIONS =====");
                     Console.WriteLine("(N)orth");
                     Console.WriteLine("(S)outh");
                     Console.WriteLine("(E)ast");
                     Console.WriteLine("(W)est");
+                    Console.WriteLine("(T)om's Gift Shop");
                     Console.WriteLine("");
                     string input = Console.ReadLine() ?? ""; //?? says take the thing on the left unless its null, then it will put in whats on the right
                     if (input.ToLower() == "n" || input.ToLower() == "north")
@@ -62,7 +63,10 @@ namespace IndividualProject
                     {
                         Program.currentPlayer.formerplayerlocx = Program.currentPlayer.playerlocx;
                         Program.currentPlayer.playerlocx -= -1;
-
+                    }
+                    else if (input.ToLower() == "t" || input.ToLower() == "toms")
+                    {
+                        Shop.LoadShop(Program.currentPlayer);
                     }
                 }
             }

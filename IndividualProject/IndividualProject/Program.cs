@@ -35,25 +35,42 @@ namespace IndividualProject
         static void NewStart()
         {
             Console.Clear();
-            Console.WriteLine("The Maw of Madness");
+            Console.WriteLine("Life is Hell");
             Console.WriteLine("What is your name?");
-            currentPlayer.Name = Console.ReadLine()??"Please use a valid input";
+            currentPlayer.Name = Console.ReadLine()??"";
             currentPlayer.SaveCounter = 1;
             Save();
             Console.Clear();
-            Console.WriteLine("This is where you put the intro to the story.");
-            Console.WriteLine("You can write more intro story here.");
+            Console.WriteLine("You wake up and look around. Everything is on fire. People are running and screaming. There are giant winged creatures in the air.");
+            Console.WriteLine("'Hello!' someone says from behind you.");
+            Console.WriteLine("You turn to see the devil. Not the devil like your ex, but the actual devil.");
+            Console.WriteLine("'Welcome to Hell!' the devil says happily. 'You are going to LOVE it here.'");
+            Console.WriteLine("You find it impossible to come up with any sort of response. You are too overwhelmed.");
+            Console.WriteLine("'Yeah I get that alot. Don't worry you were not that bad a person so you can pretty much do as you please down here. We only have a few rules.'");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("'First of all, you can't really die. If you do, you'll be reborn right back here. Not really a rule I guess...but good to know!'");
+            Console.WriteLine("'Secondly, you have to kill people for my entertainment and for gold. They'll try to kill you too so you can call it self defense if you want.'");
+            Console.WriteLine("'Finally, I like things bloody. Here is a sword and a shield. There is a shop over there where you can pick up some souvenirs.'");
+            Console.WriteLine("'Best of luck to you. I hope you die painfully many many times.'");
+            Console.WriteLine("The Devil tosses you a sort of half-ass salute and walks off.");
+            Console.ReadKey();
+            Console.Clear();
+            
             if (currentPlayer.Name == "")
             {
-                Console.WriteLine("It is too bad you don't have a name for your farm!");
+                Console.WriteLine("Your name is really boring.");
             }
             else
             {
-                Console.WriteLine("Welcome to " + currentPlayer.Name + "'s Farm!");
+                Console.WriteLine("Welcome to hell " + currentPlayer.Name + "!");
+
             }
             Console.ReadKey();
             Console.Clear();
-            Console.WriteLine("This is more story if you need it.");
+            Console.WriteLine("You look around in disbelief.");
+            Console.WriteLine("There is a shop nearby. The sign says Tom's Gift Shop.");
+            Console.WriteLine("It is as good a place to start as any.");
             Location.PlayerLoc(Program.currentPlayer.playerlocx, Program.currentPlayer.playerlocy); ;
         }
         public static void Save()

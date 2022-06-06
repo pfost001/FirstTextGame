@@ -25,10 +25,10 @@ namespace IndividualProject
 
             while (true)
             {
-                potionP = 25 + 10 * p.mods;
-                armorP = 100 + 10 * p.armorValue;
-                weaponP = 75 + 10 * p.weaponValue;
-                diffP = 100 + 100 * p.mods;
+                potionP = 25;
+                armorP = 100 + 15 * p.armorValue;
+                weaponP = 100 + 15 * p.weaponValue;
+                diffP = 10 + 5 * p.mods;
                 healthP = 25 + 5 * p.health;
 
                 Console.Clear();
