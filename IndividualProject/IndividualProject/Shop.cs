@@ -36,6 +36,7 @@ namespace IndividualProject
                 Console.WriteLine("Weapon Power = " + Program.currentPlayer.weaponValue);
                 Console.WriteLine("Armor Power = " + Program.currentPlayer.armorValue);
                 Console.WriteLine("Health = " + Program.currentPlayer.health);
+                Console.WriteLine("Potions = " + Program.currentPlayer.potion);
                 Console.WriteLine("Difficulty Level = " + Program.currentPlayer.mods);
                 Console.WriteLine("Coins = " + Program.currentPlayer.coins);
                 Console.WriteLine("");

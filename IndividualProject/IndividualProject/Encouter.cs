@@ -101,7 +101,7 @@ namespace IndividualProject
                 if (input.ToLower() == "a" || input.ToLower() == "attack")
                 {
                     //attack
-                    Console.WriteLine("Attack Flavor Text");
+                    Console.WriteLine("You focus your efforts on making a heavy attack.");
                     int damage = p - Program.currentPlayer.armorValue;
                     if (damage < 0)
                     {
@@ -115,7 +115,7 @@ namespace IndividualProject
                 else if (input.ToLower() == "d" || input.ToLower() == "defend")
                 {
                     //defend
-                    Console.WriteLine("Defend Flavor Text");
+                    Console.WriteLine("You raise your shield and fight defensively.");
                     int damage = (p/4) - Program.currentPlayer.armorValue;
                     if (damage < 0)
                     {
@@ -132,8 +132,8 @@ namespace IndividualProject
                     Console.WriteLine("Run Flavor Text");
                     if (rand.Next(0,4) == 0)
                     {
-                        Console.WriteLine("You can't run text.");
-                        Console.WriteLine("You didn't run and now you took damage flavor text");
+                        Console.WriteLine("You try to turn and run but trip over a loose pile of bones.");
+                        Console.WriteLine("While trying to escape your enemy hits you!");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0)
                         {
@@ -144,7 +144,7 @@ namespace IndividualProject
                     }
                     else
                     {
-                        Console.WriteLine("You managed to escape text");
+                        Console.WriteLine("Your dodgeball skills are finally paying off. You get away.");
                         Console.ReadLine(); 
                         Shop.LoadShop(Program.currentPlayer);
                     }
@@ -154,8 +154,8 @@ namespace IndividualProject
                     //heal
                     if (Program.currentPlayer.potion == 0) //check to see if they have potions
                     {
-                        Console.WriteLine("You don't have any potions flavor text");
-                        Console.WriteLine("You get hit because you didn't have any potions flavor text");
+                        Console.WriteLine("You reach for a potion only to find that you are out!");
+                        Console.WriteLine("While looking for a potion your enemy strikes you!");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0)
                         {
@@ -166,17 +166,17 @@ namespace IndividualProject
                     }
                     else
                     {
-                        Console.WriteLine("you drank a potion flavor text"); //player gains health
+                        Console.WriteLine("You drain the potion of its vile tasting liquid"); //player gains health
                         int potionv = 5;
-                        Console.WriteLine("you gain " + potionv + " health");
+                        Console.WriteLine("you gain " + potionv + " health from the potion");
                         Program.currentPlayer.health += potionv;
-                        Console.WriteLine("Flavor text for getting hit while drinking potion.");
                         int damage = (p / 2) - Program.currentPlayer.armorValue;
                         if (damage < 0)
                         {
                             damage = 0;
                         }
-                        Console.WriteLine("You lose " + damage + " health for getting hit while drinking a potion text");
+                        Console.WriteLine("While retrieving your potion you get hit!");
+                        Console.WriteLine("You take " + damage + ".");
                         Program.currentPlayer.potion--;
                     }
                     Console.ReadKey();
