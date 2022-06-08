@@ -15,9 +15,12 @@ namespace IndividualProject
         public static void FirstEncounter()
         {
             Console.WriteLine("You are making your way towards the shop when you hear a voice yelling.");
+            Console.WriteLine();
             Console.WriteLine("'FRESH MEAT!'");
-            Console.WriteLine("The person gets directly in your face. Their breath is horrible. Like, really really bad. To the point where it is a distraction");
-            Console.WriteLine("They just smile, which is really weird.");
+            Console.WriteLine();
+            Console.WriteLine("The person gets directly in your face. Their breath is horrible.");
+            Console.WriteLine("They just smile, and their teeth are rotted.");
+            Console.WriteLine();
             Console.WriteLine("'I can't wait to kill you.'");
             Console.ReadKey();
             Combat(false, "Doesn't Brush Their Teeth", 1, 4);
@@ -27,7 +30,8 @@ namespace IndividualProject
         {
             string n = GetName();
             Console.Clear();
-            Console.WriteLine("The worst of humanity is trying to assault you! " + n +" charges you, sword raised.");
+            Console.WriteLine("The worst of humanity is trying to assault you!");
+            Console.WriteLine("A " + n +" charges you, sword raised.");
             Console.ReadKey();
             Console.Clear();
             Combat(true, n, 0, 0);
@@ -37,10 +41,11 @@ namespace IndividualProject
         {
             Console.Clear();
             Console.WriteLine("The Devil decends upon you.");
-            Console.WriteLine("'You are getting a little to uppity for my liking.'");
+            Console.WriteLine();
+            Console.WriteLine("'You are getting a little big for your britches!.'");
             Console.WriteLine("The Devil grins and charges you, claws raised!");
             Console.ReadKey();
-            Combat(false, "The Devil (Not your ex)", Program.currentPlayer.GetStatPower() * 2, Program.currentPlayer.GetStatHealth() * 5);
+            Combat(false, "The Devil (literaly)", Program.currentPlayer.GetStatPower() * 2, Program.currentPlayer.GetStatHealth() * 5);
         }
             
 
@@ -195,54 +200,54 @@ namespace IndividualProject
         }
         public static string GetName()
         {
-            switch (rand.Next(0, 85))
+            switch (rand.Next(0, 89))
             {
                 case 0:
-                    return "Drives slow in the Fast Lane";
+                    return "Person who drives slow in the fast lane";
                 case 1:
-                    return "Chews With Their Mouth Open";
+                    return "Person who chews with their mouth open";
                 case 2:
-                    return "Talks During Movies";
+                    return "Person who talks during movies";
                 case 3:
-                    return "Wears Too Much Cologne";
+                    return "Person who wears too much perfume";
                 case 4:
-                    return "USES ALL CAPS!!!";
+                    return "Person who USES ALL CAPS!!!";
                 case 5:
-                    return "Humblebrags";
+                    return "Humblebragger";
                 case 6:
-                    return "Doesn't Return the Shopping Cart";
+                    return "Person who doesn't return the shopping cart";
                 case 7:
-                    return "Taps Their Foot Violently";
+                    return "Person who taps their foot violently";
                 case 8:
-                    return "Takes up Two Parking Spaces";
+                    return "Person who takes up two parking spaces";
                 case 9:
-                    return "Eats Other People's Lunch";
+                    return "Person who eats other people's lunch";
                 case 10:
-                    return "Always Replys All";
+                    return "Person who always replys all";
                 case 11:
-                    return "Talks at the Movies";
+                    return "Person who applauds at the end of a plane trip";
                 case 12:
-                    return "Applauds at the End of a Movie";
+                    return "Person who applauds at the end of a movie";
                 case 13:
-                    return "Express Checkout with 30 Items";
+                    return "Person in the express checkout with too many items";
                 case 14:
-                    return "Talks Loudly on Phone at Gym";
+                    return "Person talking loudly on the phone at the gym";
                 case 15:
-                    return "Doesn't Replace the Toilet Paper";
+                    return "Person who doesn't replace the toilet paper";
                 case 16:
                     return "Booger Eater";
                 case 17:
-                    return "RSVPs at the Last Minute";
+                    return "Person who RSVPs at the last minute";
                 case 18:
-                    return "Leaves Toilet Seat Up";
+                    return "Person who leaves the toilet seat up";
                 case 19:
-                    return "Picks Food From Teeth";
+                    return "Person who picks their teeth in public";
                 case 20:
-                    return "Sniffs Loudly, Doesn't Blow Nose";
+                    return "Person who sniffs loudly but never blows their nose";
                 case 21:
-                    return "Blows Nose Really Really Loudly";
+                    return "Person who blows their nose at maximum volume";
                 case 22:
-                    return "Take up Both Armrests on the Plane";
+                    return "Person who takes up both armrests on a plane";
                 case 23:
                     return "Surface Shitter";
                 case 24:
@@ -250,109 +255,109 @@ namespace IndividualProject
                 case 25:
                     return "Loud Eater";
                 case 26:
-                    return "Blocks Sidewalk for Selfie";
+                    return "Person who blocks the sidewalk for their selfies";
                 case 27:
-                    return "Texts While Walking in a Crowd";
+                    return "Person who texts while walking in a crowd";
                 case 28:
-                    return "Asks Teacher for More Homework";
+                    return "Person who asks the teacher for more homework";
                 case 29:
-                    return "Never Picks up Tab";
+                    return "Person who never picks up the tab";
                 case 30:
-                    return "Makes Every Conversation About Themself";
+                    return "Person who makes every conversation about themselves";
                 case 31:
-                    return "Cuts In Line";
+                    return "Habitual Line Cutter";
                 case 32:
-                    return "Stands Too Close In Line";
+                    return "Person who stands too close in line";
                 case 33:
-                    return "Incessant Pen Clicker";
+                    return "Non-stop Pen Clicker";
                 case 34:
-                    return "Starts Sentences With No Offense";
+                    return "Person who starts their sentences with 'No offense'";
                 case 35:
-                    return "Never on Time";
+                    return "Person who is never on time";
                 case 36:
-                    return "Snaps Their Chewing Gum";
+                    return "Person who snaps their chewing gum";
                 case 37:
-                    return "Touches Strangers";
+                    return "Overzealous Toucher";
                 case 38:
-                    return "Doesn't Wipe Down Machines at Gym";
+                    return "Person who doesn't wipe down their machines at the gym";
                 case 39:
-                    return "Always Talking About Their Diet";
+                    return "Person who won't shut up about their diet";
                 case 40:
-                    return "Keeps Phones Volume High in Public";
+                    return "Person who keeps their phone on full volume";
                 case 41:
-                    return "Never Knows What to Order";
+                    return "Person who never knows what to order";
                 case 42:
-                    return "Doesn't Know How to Merge";
+                    return "Person who doesn't know how to merge";
                 case 43:
-                    return "Can't Shut Up About Their Pet";
+                    return "Person who can't shut up about their 'fur baby'";
                 case 44:
-                    return "Wears Inappropiate Clothes to Work";
+                    return "Person who wears inappropiate clothing to work";
                 case 45:
-                    return "Calls People Random Nicknames";
+                    return "Person who makes up random nicknames";
                 case 46:
                     return "Close Talker";
                 case 47:
-                    return "The One Upper";
+                    return "One Upper";
                 case 48:
                     return "Nail Biter";
                 case 49:
                     return "Knuckle Cracker";
                 case 50:
-                    return "Violently Cracks Neck in Public";
+                    return "Person who violently cracks their neck in public";
                 case 51:
-                    return "Always Interrupts";
+                    return "Person who always interrupts";
                 case 52:
                     return "Know it All";
                 case 53:
-                    return "Never Returns Items";
+                    return "Person who never returns what they 'borrow'";
                 case 54:
                     return "Over Sharer";
                 case 55:
-                    return "Holier Than Thou";
+                    return "Person who is holier than thou";
                 case 56:
-                    return "Everything is a Joke";
+                    return "Person who thinks everything is a joke";
                 case 57:
                     return "Inconsiderate Jerk";
                 case 58:
                     return "Virtue Signaler";
                 case 59:
-                    return "Doesn't Use Blinker";
+                    return "Person who doesn't use their blinker";
                 case 60:
                     return "Guilt Tripper";
                 case 61:
-                    return "Raise by Wolves";
+                    return "Person who acts like they were raised by wolves";
                 case 62:
-                    return "Will Die Without Phone";
+                    return "Person who will 'literally' die without their phone";
                 case 63:
                     return "Drama Queen";
                 case 64:
                     return "Cheap Bastard";
                 case 65:
-                    return "Finishes Your Sentence";
+                    return "Person who finishes your sentences";
                 case 66:
                     return "Ghoster";
                 case 67:
-                    return "Captain Negative";
+                    return "Negative Nancy";
                 case 68:
-                    return "Way Too Happy To Be Here";
+                    return "Person who is way to happy to be here";
                 case 69:
-                    return "Always Complains";
+                    return "Consistent Complainer";
                 case 70:
-                    return "Always Has To Be Right";
+                    return "Person who always has to be right";
                 case 71:
-                    return "Passive Aggressive";
+                    return "Passive Aggressive A-hole";
                 case 72:
-                    return "Really Into Astology";
+                    return "Person who relates everything to their daily horoscope";
                 case 73:
-                    return "Doesn't Know When To Shut Up";
+                    return "Person who doesn't know when to shut up";
                 case 74:
-                    return "Doesn't Shower";
+                    return "Person who doesn't shower";
                 case 75:
-                    return "Clickbait";
+                    return "Clickbait Ad";
                 case 76:
-                    return "That One Prince From Nigeria";
+                    return "Prince from Nigeria that wants to give you money";
                 case 77:
-                    return "Rich Only Chiled";
+                    return "Spoiled rich only child";
                 case 78:
                     return "Politician";
                 case 79:
@@ -360,15 +365,23 @@ namespace IndividualProject
                 case 80:
                     return "Liberal Arts Major";
                 case 81:
-                    return "Spoils Endings";
+                    return "Person who spoils movie endings";
                 case 82:
-                    return "Wipes Nose With Hands";
+                    return "Person who wipes their nose with their hand";
                 case 83:
-                    return "Doesn't Flush the Toilet";
+                    return "Person who doesn't flush the toilet";
                 case 84:
                     return "Whiner";
                 case 85:
-                    return "Screams When They Talk";
+                    return "Person who screams when they talk";
+                case 86:
+                    return "Person who moans at the urinal";
+                case 87:
+                    return "Sweat Lord";
+                case 88:
+                    return "Person whose 'long story short' is still long";
+                case 89:
+                    return "Person with taco breath";
 
 
             }
