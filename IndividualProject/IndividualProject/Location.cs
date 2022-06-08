@@ -44,25 +44,25 @@ namespace IndividualProject
                     if (input.ToLower() == "n" || input.ToLower() == "north")
                     {
                         Program.currentPlayer.formerplayerlocy = Program.currentPlayer.playerlocy;
-                        Program.currentPlayer.playerlocy += 1;
+                        Program.currentPlayer.playerlocy ++;
 
                     }
                     else if (input.ToLower() == "s" || input.ToLower() == "south")
                     {
                         Program.currentPlayer.formerplayerlocy = Program.currentPlayer.playerlocy;
-                        Program.currentPlayer.playerlocy -= -1;
+                        Program.currentPlayer.playerlocy --;
 
                     }
                     else if (input.ToLower() == "e" || input.ToLower() == "east")
                     {
                         Program.currentPlayer.formerplayerlocx = Program.currentPlayer.playerlocx;
-                        Program.currentPlayer.playerlocx += 1;
+                        Program.currentPlayer.playerlocx ++;
 
                     }
                     else if (input.ToLower() == "w" || input.ToLower() == "west")
                     {
                         Program.currentPlayer.formerplayerlocx = Program.currentPlayer.playerlocx;
-                        Program.currentPlayer.playerlocx -= -1;
+                        Program.currentPlayer.playerlocx --;
                     }
                     else if (input.ToLower() == "t" || input.ToLower() == "toms")
                     {
@@ -83,20 +83,20 @@ namespace IndividualProject
                 if (input.ToLower() == "n" || input.ToLower() == "north")
                 {
                     Program.currentPlayer.formerplayerlocy = Program.currentPlayer.playerlocy;
-                    Program.currentPlayer.playerlocy = Program.currentPlayer.playerlocy + 1;
+                    Program.currentPlayer.playerlocy ++;
 
                 }
 
                 else if (input.ToLower() == "e" || input.ToLower() == "east")
                 {
                     Program.currentPlayer.formerplayerlocx = Program.currentPlayer.playerlocx;
-                    Program.currentPlayer.playerlocx = Program.currentPlayer.playerlocx + 1;
+                    Program.currentPlayer.playerlocx ++;
 
                 }
                 else if (input.ToLower() == "w" || input.ToLower() == "west")
                 {
                     Program.currentPlayer.formerplayerlocx = Program.currentPlayer.playerlocx;
-                    Program.currentPlayer.playerlocx = Program.currentPlayer.playerlocx - 1;
+                    Program.currentPlayer.playerlocx --;
 
                 }
             }

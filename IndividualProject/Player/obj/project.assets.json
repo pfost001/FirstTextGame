@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Paul\\.nuget\\packages\\": {},
+    "C:\\Users\\paul.foster\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\IndividualProject\\Player\\Player.csproj",
+      "projectUniqueName": "C:\\Users\\paul.foster\\Source\\Repos\\FirstTextGame\\IndividualProject\\Player\\Player.csproj",
       "projectName": "Player",
-      "projectPath": "C:\\Users\\Paul\\source\\repos\\IndividualProject\\Player\\Player.csproj",
-      "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul\\source\\repos\\IndividualProject\\Player\\obj\\",
+      "projectPath": "C:\\Users\\paul.foster\\Source\\Repos\\FirstTextGame\\IndividualProject\\Player\\Player.csproj",
+      "packagesPath": "C:\\Users\\paul.foster\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paul.foster\\Source\\Repos\\FirstTextGame\\IndividualProject\\Player\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Paul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "\\\\stmartin.edu\\dfs\\users\\paul.foster\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

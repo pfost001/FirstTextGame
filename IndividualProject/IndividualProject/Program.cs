@@ -41,10 +41,12 @@ namespace IndividualProject
             currentPlayer.SaveCounter = 1;
             Save();
             Console.Clear();
-            Console.WriteLine("You wake up and look around. Everything is on fire. People are running and screaming. There are giant winged creatures in the air.");
+            Console.WriteLine("You wake up and look around. Everything is on fire.");
+            Console.WriteLine("People are running and screaming. There are giant winged creatures in the air.");
             Console.WriteLine("'Hello!' someone says from behind you.");
-            Console.WriteLine("You turn to see the devil. Not the devil like your ex, but the actual devil.");
-            Console.WriteLine("'Welcome to Hell!' the devil says happily. 'You are going to LOVE it here.'");
+            Console.WriteLine("You turn to see the devil. The actual fucking devil.");
+            Console.WriteLine("'Welcome to Hell!' the devil says happily.");
+            Console.WriteLine("'You are going to LOVE it here.'");
             Console.WriteLine("You find it impossible to come up with any sort of response. You are too overwhelmed.");
             Console.WriteLine("'Yeah I get that alot. Don't worry you were not that bad a person so you can pretty much do as you please down here. We only have a few rules.'");
             Console.ReadKey();
@@ -109,9 +111,9 @@ namespace IndividualProject
             foreach (string p in paths)
             {
                 FileStream file = File.Open(p, FileMode.Open); //do not use opne or create or it will pull the file as writable
-                Player pfile = (Player)binForm.Deserialize(file); //use cast to be sure you are opening only a player file. deserialize means load.
+                Player player = (Player)binForm.Deserialize(file); //use cast to be sure you are opening only a player file. deserialize means load.
                 file.Close();
-                players.Add(pfile); //this will add the pfile to the players list
+                players.Add(player); //this will add the pfile to the players list
             }
             while (true)
             {
@@ -136,7 +138,7 @@ namespace IndividualProject
                             }
                             else
                             {
-                                Console.WriteLine("FILE NOT FOUND");
+                                Console.WriteLine("LOADING");
                             }
                         }
                     }

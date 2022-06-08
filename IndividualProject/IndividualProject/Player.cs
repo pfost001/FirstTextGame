@@ -18,10 +18,10 @@ namespace IndividualProject
         public int potion = 5;
         public int weaponValue = 5;
         public int mods = 1;
-        public float playerlocx = 0;
-        public float playerlocy = 0;
-        public float formerplayerlocx = 0;
-        public float formerplayerlocy = 0;
+        public int playerlocx = 0;
+        public int playerlocy = 0;
+        public int formerplayerlocx = 0;
+        public int formerplayerlocy = 0;
         public bool firstencounter = false;
 
         public int GetStatPower()

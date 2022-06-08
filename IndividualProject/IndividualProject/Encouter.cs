@@ -48,16 +48,16 @@ namespace IndividualProject
         // Encounter Tools
         public static void RandomEncounter()
         {
-            int fightCheck = rand.Next(0, 1001);
-            switch (rand.Next(0, 1000))
+            int fightCheck = rand.Next(0, 3);
+            switch (fightCheck)
             {
-                case 0 - 200:
+                case 0:
                     BasicFightEncounter();
                     break;
-                case 1000:
+                case 1:
                     FightWithTheDevil();
                     break;
-                case 300 - 999:
+                case 2:
                     break;
                 
             }
@@ -198,31 +198,31 @@ namespace IndividualProject
             switch (rand.Next(0, 85))
             {
                 case 0:
-                    return "Slow Driver in the Fast Lane";
+                    return "Drives slow in the Fast Lane";
                 case 1:
-                    return "Chews With Mouth Open";
+                    return "Chews With Their Mouth Open";
                 case 2:
-                    return "Movie Talker";
+                    return "Talks During Movies";
                 case 3:
-                    return "Wears Too Much Perfume";
+                    return "Wears Too Much Cologne";
                 case 4:
                     return "USES ALL CAPS!!!";
                 case 5:
-                    return "Humblebragger";
+                    return "Humblebrags";
                 case 6:
                     return "Doesn't Return the Shopping Cart";
                 case 7:
-                    return "Violent Foot Tapper";
+                    return "Taps Their Foot Violently";
                 case 8:
-                    return "Take us Two Parking Spaces";
+                    return "Takes up Two Parking Spaces";
                 case 9:
-                    return "Eat Other People's Lunch";
+                    return "Eats Other People's Lunch";
                 case 10:
                     return "Always Replys All";
                 case 11:
                     return "Talks at the Movies";
                 case 12:
-                    return "Applauds at End of Movie";
+                    return "Applauds at the End of a Movie";
                 case 13:
                     return "Express Checkout with 30 Items";
                 case 14:
