@@ -73,7 +73,12 @@ namespace IndividualProject
             else if (x == 0 && y == -1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square 0,-1. There is stuff here.");
+                Console.WriteLine("You are standing at the base of a large granite hill.");
+                Console.WriteLine("There is a person pushing a large stone up the mountain.");
+                Console.WriteLine();
+                Console.WriteLine("As they reach the top of the hill, the stone rolls backwards crushing them.");
+                Console.WriteLine("Moments later they are reborn at the base of the hill and begin pushing the stone again.");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(N)orth");
                 Console.WriteLine("(E)ast");
@@ -104,7 +109,12 @@ namespace IndividualProject
             else if (x == 0 && y == 1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square 0,1. There is stuff here.");
+                Console.WriteLine("You stand near a lake of fire with a crane positioned over it.");
+                Console.WriteLine("The crane holds a cage with a person in it.");
+                Console.WriteLine();
+                Console.WriteLine("The crane slowly lowers the person into the fire and pulls up their burnt corpse");
+                Console.WriteLine("The person is quickly reborn inside the cage, only for the process to repeat itself.");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(S)outh");
                 Console.WriteLine("(E)ast");
@@ -134,7 +144,9 @@ namespace IndividualProject
             else if (x == 1 && y == 1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square 1,1. There is stuff here.");
+                Console.WriteLine("You field of people impaled on large spikes.");
+                Console.WriteLine("They wail in pain as they continue to slowly die only to be reborn on the spike");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(S)outh");
                 Console.WriteLine("(W)est");
@@ -156,7 +168,11 @@ namespace IndividualProject
             else if (x == 1 && y == -1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square 1,-1. There is stuff here.");
+                Console.WriteLine("You stand on the precipice of a large, slow moving meat grinder.");
+                Console.WriteLine("People are dropped into the meat grinder from above");
+                Console.WriteLine();
+                Console.WriteLine("They are the reborn mid-air and perpetually fall back into the grinder");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(N)orth");
                 Console.WriteLine("(W)est");
@@ -178,7 +194,11 @@ namespace IndividualProject
             else if (x == 1 && y == 0)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square 1,0. There is stuff here.");
+                Console.WriteLine("You are nearby a large field filled with people tied to posts.");
+                Console.WriteLine("There are swarms of ants going from person to person eating them alive");
+                Console.WriteLine();
+                Console.WriteLine("The people are reborn only to be eaten again");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(N)orth");
                 Console.WriteLine("(S)outh");
@@ -207,7 +227,9 @@ namespace IndividualProject
             else if (x == -1 && y == 1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square -1,1. There is stuff here.");
+                Console.WriteLine("You come across a rocky outcropping overlooking a river of lava.");
+                Console.WriteLine("Other than being in hell, it is quite scenic.");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(S)outh");
                 Console.WriteLine("(E)ast");
@@ -229,7 +251,11 @@ namespace IndividualProject
             else if (x == -1 && y == 0)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square -1,0. There is stuff here.");
+                Console.WriteLine("You come across row after row of large clear water tanks.");
+                Console.WriteLine("The people inside let loose muffles screams and pound the glass as they slowly drown.");
+                Console.WriteLine();
+                Console.WriteLine("They are reborn again underwater to repeat the process");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(N)orth");
                 Console.WriteLine("(S)outh");
@@ -258,7 +284,10 @@ namespace IndividualProject
             else if (x == -1 && y == -1)
             {
                 Console.Clear();
-                Console.WriteLine("You are standing in square -1,-1. There is stuff here.");
+                Console.WriteLine("You find a person sitting atop a large triangle.");
+                Console.WriteLine("Their legs are tied to heavy weights.");
+                Console.WriteLine("The force of gravity uses the triangle to very slowly cut them half.");
+                Console.WriteLine();
                 Console.WriteLine("====== OPTIONS =====");
                 Console.WriteLine("(N)orth");
                 Console.WriteLine("(E)ast");

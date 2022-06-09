@@ -11,7 +11,7 @@
         "projectName": "IndividualProject",
         "projectPath": "C:\\Users\\paul.foster\\source\\repos\\FirstTextGame\\IndividualProject\\IndividualProject\\IndividualProject.csproj",
         "packagesPath": "C:\\Users\\paul.foster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paul.foster\\Source\\Repos\\FirstTextGame\\IndividualProject\\IndividualProject\\obj\\",
+        "outputPath": "C:\\Users\\paul.foster\\source\\repos\\FirstTextGame\\IndividualProject\\IndividualProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
